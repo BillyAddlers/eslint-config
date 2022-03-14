@@ -1,6 +1,6 @@
 {
   "name": "@billyaddlers/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An ESLint config formerly used in Soulwatch web game project, now widely used across other project.",
   "main": "index.js",
   "license": "MIT",

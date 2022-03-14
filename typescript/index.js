@@ -167,7 +167,7 @@ rules = {
     ...rules,
     camelcase: "off",
     "@typescript-eslint/naming-convention": [
-        "error",
+        "warn",
         {
             selector: "default",
             format: ["camelCase", "PascalCase"],
@@ -203,8 +203,5 @@ extensionRules = { ...Object.fromEntries(baseRules), ...extensionRules, ...Objec
 
 module.exports = {
     extends: [base, "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-requiring-type-checking"],
-    parserOptions: {
-        project: "./tsconfig.json"
-    },
     rules: { ...rules, ...extensionRules }
 };
