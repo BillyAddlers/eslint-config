@@ -187,4 +187,4 @@ const rules = {
     }
 }
 
-module.exports = JSON.parse(rules)
+module.exports = rules
