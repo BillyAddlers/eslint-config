@@ -1,6 +1,6 @@
 {
   "name": "@billyaddlers/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An ESLint config formerly used in Soulwatch web game project, now widely used across other project.",
   "main": "index.js",
   "license": "MIT",
@@ -8,31 +8,12 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "dependencies": {
-    "strip-json-comments": "^3.1.1"
+    "strip-json-comments": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.9",
-    "@typescript-eslint/eslint-plugin": ">=5.10.0",
-    "@typescript-eslint/parser": ">=5.10.0",
-    "eslint": ">=8.7.0",
-    "typescript": ">=3.3.1 <4.6.0"
-  },
-  "peerDependencies": {
-    "@types/node": "^17.0.9",
-    "@typescript-eslint/eslint-plugin": ">=5.10.0",
-    "@typescript-eslint/parser": ">=5.10.0",
-    "eslint": ">=8.7.0",
-    "typescript": ">=3.3.1 <4.6.0"
-  },
-  "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
+    "@types/node": "^20.14.2",
+    "typescript-eslint": "^7.0.1",
+    "eslint": ">=8.56.0",
+    "typescript": "^5.4.5"
   }
 }
